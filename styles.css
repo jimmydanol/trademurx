@@ -1,0 +1,48 @@
+h1 {
+    color: blue;
+    text-align: center;
+    border: solid;
+}
+
+h2 {
+    color: red;
+    margin: auto;
+}
+
+h3 {
+    color: green;
+}
+
+li {
+    color: purple;
+    border: true;
+}
+
+p {
+    vertical-align: middle;
+}
+
+.link {
+    color: pink;
+}
+
+.address {
+    font-size: 8;
+}
+
+#top {
+    font: sans-serif;
+    font-size: 24px;
+    color: red;
+}
+
+#middle {
+    font: Arial;
+    font-size: 36px;
+    color: orange;
+}
+
+#bottom {
+    font:Arial;
+    font-size: 24px;
+}
