@@ -1,0 +1,73 @@
+div ul {
+  font-size: 14px;
+  color: green; }
+div ol {
+  font-size: 18px;
+  color: green; }
+
+h1 {
+  color: blue;
+  text-align: center;
+  border: solid; }
+
+h2 {
+  color: red;
+  margin: auto;
+  border: solid; }
+
+h3 {
+  color: green; }
+
+p {
+  vertical-align: middle; }
+
+.link {
+  color: pink; }
+
+.address {
+  font-size: 8; }
+
+#top {
+  font: sans-serif;
+  font-size: 24px;
+  color: red; }
+
+#middle {
+  font: Arial;
+  font-size: 36px;
+  color: orange; }
+
+#bottom {
+  font: Arial;
+  font-size: 24px; }
+
+@media (min-width: 500px) {
+  h1 {
+    font-size: 18px;
+    color: blue;
+    text-align: center;
+    border: 2px black solid; } }
+@media (max-width: 499px) {
+  h1 {
+    font-size: 48px;
+    color: red;
+    text-align: center;
+    border: solid; } }
+.success, .warning, .error {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px; }
+
+.success {
+  background-color: green; }
+
+.warning {
+  background-color: orange; }
+
+.error {
+  background-color: red; }
+
+/*# sourceMappingURL=variables.css.map */

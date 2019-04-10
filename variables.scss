@@ -1,5 +1,16 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+$color: green;
+
+div {
+    ul {
+        font-size: 14px;
+        color: $color;
+    }
+
+    ol {
+        font-size: 18px;
+        color: $color;
+    }
+}
 
 h1 {
     color: blue;
@@ -10,15 +21,11 @@ h1 {
 h2 {
     color: red;
     margin: auto;
+    border: solid;
 }
 
 h3 {
     color: green;
-}
-
-li {
-    color: purple;
-    border: true;
 }
 
 p {
@@ -66,4 +73,28 @@ p {
         text-align: center;
         border: solid;
     }
+}
+
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.success {
+    @extend %message;
+    background-color: green;
+}
+
+.warning {
+    @extend %message;
+    background-color: orange;
+}
+
+.error {
+    @extend %message;
+    background-color: red;
 }
